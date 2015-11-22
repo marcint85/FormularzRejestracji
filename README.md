@@ -9,7 +9,7 @@ Pliki:
 1 ) index.sjp - strona wyświetlana uzytkownikowi. Zawiera formularz z polami do uzupełnienia oraz listę osob juz 
 dodanych do bazy danych.
 
-2 ) DBconnection.java - klasa wykorzystywana do nawiazania polaczenia z baza danych. W wypadku zmiany adresu/konta/hasla bazy danych tutaj nalezy wprowadzic odpowiednie dane by nawiazac polaczenie.
+2 ) DBconnection.java - klasa wykorzystywana do nawiazania polaczenia z baza danych. W wypadku zmiany adresu/konta/hasla bazy danych tutaj nalezy wprowadzic odpowiednie dane by nawiazac polaczenie. Driver wykorzystywany do polaczenia sie z baza danych: com.mysql.jdbc.Driver
 
 3 ) ErrorMessageBean.java - klasa wykorzystywana do przekazywania informacji o bledzie z klasy Servlet1 do index.sjp.
 
