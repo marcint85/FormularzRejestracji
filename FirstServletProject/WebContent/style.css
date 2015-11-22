@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+body{
+	background-color: lightgrey;
+	align:center;
+}
+#etykiety{
+	float:left;
+}
+#pola{
+	float:left;
+}
+#zawod{
+	width:100%;
+}
+#container{
+	width:1000px;
+	margin-left:auto;
+	margin-right;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding:4px;
+}
+#errorMsg{
+	color:red;
+}
