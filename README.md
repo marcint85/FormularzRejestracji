@@ -29,3 +29,5 @@ dodanych do bazy danych.
   
 6 ) bazamarcin.sql - plik z poleceniami do utworzenia bazy danych.
 
+7 ) style.css - formatowanie stylow dla index.sjp.
+
