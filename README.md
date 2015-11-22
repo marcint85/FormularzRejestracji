@@ -19,10 +19,10 @@ dodanych do bazy danych.
   - peselValidation()
   - emailValidation()
   
-  Jesli nade sa poprawne nastepuje proba dodania danych do bazy.
+  Jesli dane sa poprawne nastepuje proba dodania danych do bazy.
   W wypadku gdy dane nie przejda walidacji lub proba dodania danych do bazy zakonczy sie otrzymaniem komunkatu o 
   bledzie nastepuje przekierowanie do strony index.sjp z informacja o wprawadzaniu niepoprawnych danych
   Jesli dane zostana wprowadzone do bazy nastepuje przekierowanie z strony index.sjp.
 
-5 ) Utitlities.java - klasa wukorzystywana do wypisania osob dodanych juz do bazy danych. Metoda Write() wywolywana 
+5 ) Utitlities.java - klasa wykorzystywana do wypisania osob dodanych juz do bazy danych. Metoda Write() wywolywana 
   jest w pliku index.sjp.
