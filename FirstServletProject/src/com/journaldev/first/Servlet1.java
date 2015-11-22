@@ -24,30 +24,29 @@ public class Servlet1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		ErrorMessageBean message = new ErrorMessageBean();
-		PersonBean person = new PersonBean();
-		
-		person.setName(request.getParameter("imie"));
+				
+		/*person.setName(request.getParameter("imie"));
 		person.setSurname(request.getParameter("nazwisko"));
 		person.setPesel(request.getParameter("pesel"));
 		person.setEmail(request.getParameter("email"));
-		person.setOcupation(Integer.parseInt(request.getParameter("zawod")));
+		person.setOcupation(Integer.parseInt(request.getParameter("zawod")));*/
 		
 		String errorMsg = "";
 		boolean err = false;
 		
-		if(!nameValidation(person.getName())){
+		if(!nameValidation(request.getParameter("imie"))){
 			errorMsg = errorMsg + "nie poprawne imie</br>";
 			err = true;
 		}
-		if(!nameValidation(person.getSurname())){
+		if(!nameValidation(request.getParameter("nazwisko"))){
 			errorMsg = errorMsg + "nie poprawne nazwisko</br>";
 			err = true;
 		}
-		if(!peselValidation(person.getPesel())){
+		if(!peselValidation(request.getParameter("pesel"))){
 			errorMsg = errorMsg + "nie poprawny pesel</br>";
 			err = true;
 		}
-		if(!emailValidation(person.getEmail())){
+		if(!emailValidation(request.getParameter("email"))){
 			errorMsg = errorMsg + "nie poprawny email</br>";
 			err = true;
 		}

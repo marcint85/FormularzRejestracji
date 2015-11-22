@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-2"%>
 <%@page import="com.journaldev.first.Utitlities" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<jsp:useBean id="person" scope="request" class="com.journaldev.first.PersonBean" />
+
 <jsp:useBean id="ErrorMessage" scope="request" class="com.journaldev.first.ErrorMessageBean" />
 <html>
 
