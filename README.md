@@ -26,3 +26,6 @@ dodanych do bazy danych.
 
 5 ) Utitlities.java - klasa wykorzystywana do wypisania osob dodanych juz do bazy danych. Metoda Write() wywolywana 
   jest w pliku index.sjp.
+  
+6 ) bazamarcin.sql - plik z poleceniami do utworzenia bazy danych.
+
