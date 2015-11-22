@@ -5,6 +5,7 @@ Autor: Marcin Tarnowski
 kontakt: marcin.tarnowski2@gmail.com
 
 Pliki: 
+
 1 ) index.sjp - strona wyświetlana uzytkownikowi. Zawiera formularz z polami do uzupełnienia oraz listę osob juz 
 dodanych do bazy danych
 
@@ -17,6 +18,7 @@ dodanych do bazy danych
   - nameValidation()
   - peselValidation()
   - emailValidation()
+  
   Jesli nade sa poprawne nastepuje proba dodania danych do bazy.
   W wypadku gdy dane nie przejda walidacji lub proba dodania danych do bazy zakonczy sie otrzymaniem komunkatu o 
   bledzie nastepuje przekierowanie do strony index.sjp z informacja o wprawadzaniu niepoprawnych danych
